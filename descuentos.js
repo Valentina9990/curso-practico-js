@@ -1,5 +1,5 @@
-const precioOriginal = 100;
-const descuento = 15;
+// const precioOriginal = 100;
+// const descuento = 15;
 
 // console.log({
 //     precioOriginal,
@@ -21,6 +21,6 @@ function clickButtonDiscount (){
     const discountValue = inputDiscount.value;
     const precioconDescuento = calcularPrecioconDescuento(priceValue, discountValue);
     const ResultP = document.getElementById("resultP");
-    ResultP.innerText = "El precio con descuento es: $" + precioconDescuento;
+    ResultP.innerText = "Total a pagar: $" + precioconDescuento;
 }
 
