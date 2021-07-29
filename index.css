@@ -44,7 +44,7 @@ footer {
     display: flex;
     align-items: center;
     color: #F6DF1C;
-    font-size: inherit;
+    font-size: 15px;
     justify-content: flex-end;
     text-decoration: none;
 }
