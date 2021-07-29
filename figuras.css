@@ -14,7 +14,7 @@ body{
 }
 footer {
     background-color: #111111;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 40px;
@@ -71,10 +71,23 @@ p{
     padding: 10px 0 0 0;
     margin: 0;
 }
+.p-responseAT{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0 0 0;
+    margin: 0;
+    color: #111111;
+}
 h3{
     display: flex;
     justify-content: center;
     font-weight: 800;
+}
+.h3-triangulo{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    margin-bottom: 10px;
 }
 
 .botones{
@@ -89,6 +102,13 @@ h3{
     height: 20px;
     width: 40px;
 }
+.label-input-triangulo{
+    background-color: #F8E650;
+    border-radius: 5px;
+    border:2px solid #111111;
+    height: 20px;
+    width: 33px;
+}
 .boton{
     background-color: #F8E650;
     border-radius: 5px;
@@ -96,13 +116,27 @@ h3{
     margin-top: 10px;
     height: 30px;
 }
+.boton-triangulo{
+    background-color: #F8E650;
+    border-radius: 5px;
+    border:2px solid #111111;
+    margin-top: 6px;
+    height: 30px;
+}
 
 .imagen-figura{
-    height: 80px;
-    width: 80px;
+    height: 75px;
+    width: 75px;
     padding-bottom: 15px;
     display: inline;
     padding-left: 100px;
+}
+.imagen-triangulo{
+    height: 90px;
+    width: 90px;
+    padding-bottom: 12px;
+    display: inline;
+    padding-left: 98px;
 }
 
 

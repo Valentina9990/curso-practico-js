@@ -37,25 +37,38 @@
       </div>
     </form>
   </section>
+
   <section class="section-cuadrado">
-    <h3>TRIÁNGULO</h3>
-    <img class="imagen-figura" src="./imagenes/triangulo.svg" alt="cuadrado">
+    <h3 class="h3-triangulo">TRIÁNGULO</h3>
+    <img class="imagen-triangulo" src="./imagenes/triangulo.svg" alt="triangulo">
     <form>
-      <label for="InputCuadrado">
-        Lado:
+      <label for="Inputlado1">
+        Lado 1:
       </label>
-      <input class="label-input" id="InputCuadrado" type="number" min="0"/>
+      <input class="label-input-triangulo" id="Inputlado1" type="number" min="0"/>
+      <label for="Inputlado2">
+        Lado 2:
+      </label>
+      <input class="label-input-triangulo" id="Inputlado2" type="number" min="0"/>
+      <label for="Inputbase">
+        Base:
+      </label>
+      <input class="label-input-triangulo" id="Inputbase" type="number" min="0"/>
       <div class="botones">
-        <button class="boton" type="button" onclick="calcularPerimetroCuadrado()">
-        Calcular el perímetro
+        <button class="boton-triangulo" type="button" onclick="calcularPerimetroTriangulo()">
+          Calcular el perímetro
         </button>
-        <button class="boton" type="button" onclick="calcularAreaCuadrado()">
+        <button class="boton-triangulo" type="button" onclick="calcularAreaTriangulo()">
           Calcular el área
         </button>
-        <p class="p-response" id="resultA"></p>
+        <button class="boton-triangulo" type="button" onclick="calcularAlturaTriangulo()">
+          Calcular la altura
+        </button>
+        <p class="p-responseAT" id="resultAT"></p>
       </div>
     </form>
   </section>
+
   <section class="section-cuadrado">
     <h3>CÍRCULO</h3>
     <img class="imagen-figura" src="./imagenes/circulo.svg" alt="cuadrado">
@@ -76,35 +89,7 @@
     </form>
   </section>
   </div>
-  
-  <!-- <section>
-    <h2>Triángulo</h2>
-    <img src="" alt="triangulo">
-    <form>
-      <label for="Inputlado1">
-        Lado 1:
-      </label>
-      <input id="Inputlado1" type="number" min="0"/>
-      <label for="Inputlado2">
-        Lado 2:
-      </label>
-      <input id="Inputlado2" type="number" min="0"/>
-      <label for="Inputbase">
-        Base:
-      </label>
-      <input id="Inputbase" type="number" min="0"/>
-      <label for="Inputaltura">
-        Altura:
-      </label>
-      <input id="Inputaltura" type="number" min="0"/>
-      <button type="button" onclick="calcularPerimetroCuadrado()">
-        Calcular el perímetro
-      </button>
-      <button type="button" onclick="calcularAreaCuadrado()">
-        Calcular el área
-      </button>
-    </form>
-  </section> -->
+
   <footer>
     <a class="platzi" href="https://platzi.com/p/ValentinaSarmiento32/curso/2327-course/diploma/detalle/">Curso práctico de Platzi</a>
     <a class="ig" href="https://www.instagram.com/valentina.sarmiento.32/">@valentina.sarmiento.32</a>
