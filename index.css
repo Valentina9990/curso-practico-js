@@ -112,9 +112,9 @@ footer {
     position: absolute;
 }
 
-.a-taller{
+a .a-taller{
     font-size: 30px;
-    color: black;
+    color:#111111;
     text-decoration: none;
     display: inline-block;
     margin-bottom: 10px;
