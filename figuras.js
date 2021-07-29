@@ -141,7 +141,18 @@ function calcularAreaTriangulo() {
   ResultAT.innerText = "El área es: " + areaT + "cm^2";
 }
 
+function calcularPerimetroCirculo(){
+  const radio = parseInt(document.getElementById("InputCirculo").value);
 
-function areaTriangulo(base, alturaTriang) {
-  return (base * alturaTriang) / 2;
+  const perimetroC = parseInt(perimetroCirculo(radio));
+  const ResultC = document.getElementById("resultC");
+  ResultC.innerText = "El perímetro es: " + perimetroC + "cm";
+}
+
+function calcularAreaCirculo(){
+  const radio = parseInt(document.getElementById("InputCirculo").value);
+
+  const areaC = parseInt(areaCirculo(radio));
+  const ResultC = document.getElementById("resultC");
+  ResultC.innerText = "El perímetro es: " + areaC + "cm^2";
 }
