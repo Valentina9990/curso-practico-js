@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./figuras.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <title>Figuras geométricas</title>
+</head>
+<body>
+  <header>
+    <h1 class="title">
+      Figuras geométricas
+    </h1>
+  </header>
+  <p>Nota: Los resultados se darán en cm, asi que escribe las medidas en cm.</p>
+  <div class="container">
+    <section class="section-cuadrado">
+    <h3>CUADRADO</h3>
+    <img class="imagen-figura" src="./imagenes/cuadrado.svg" alt="cuadrado">
+    <form>
+      <label for="InputCuadrado">
+        Lado:
+      </label>
+      <input class="label-input" id="InputCuadrado" type="number" min="0"/>
+      <div class="botones">
+        <button class="boton" type="button" onclick="calcularPerimetroCuadrado()">
+        Calcular el perímetro
+        </button>
+        <button class="boton" type="button" onclick="calcularAreaCuadrado()">
+          Calcular el área
+        </button>
+        <p class="p-response" id="resultA"></p>
+      </div>
+    </form>
+  </section>
+  <section class="section-cuadrado">
+    <h3>TRIÁNGULO</h3>
+    <img class="imagen-figura" src="./imagenes/triangulo.svg" alt="cuadrado">
+    <form>
+      <label for="InputCuadrado">
+        Lado:
+      </label>
+      <input class="label-input" id="InputCuadrado" type="number" min="0"/>
+      <div class="botones">
+        <button class="boton" type="button" onclick="calcularPerimetroCuadrado()">
+        Calcular el perímetro
+        </button>
+        <button class="boton" type="button" onclick="calcularAreaCuadrado()">
+          Calcular el área
+        </button>
+        <p class="p-response" id="resultA"></p>
+      </div>
+    </form>
+  </section>
+  <section class="section-cuadrado">
+    <h3>CÍRCULO</h3>
+    <img class="imagen-figura" src="./imagenes/circulo.svg" alt="cuadrado">
+    <form>
+      <label for="InputCuadrado">
+        Lado:
+      </label>
+      <input class="label-input" id="InputCuadrado" type="number" min="0"/>
+      <div class="botones">
+        <button class="boton" type="button" onclick="calcularPerimetroCuadrado()">
+        Calcular el perímetro
+        </button>
+        <button class="boton" type="button" onclick="calcularAreaCuadrado()">
+          Calcular el área
+        </button>
+        <p class="p-response" id="resultA"></p>
+      </div>
+    </form>
+  </section>
+  </div>
+  
+  <!-- <section>
+    <h2>Triángulo</h2>
+    <img src="" alt="triangulo">
+    <form>
+      <label for="Inputlado1">
+        Lado 1:
+      </label>
+      <input id="Inputlado1" type="number" min="0"/>
+      <label for="Inputlado2">
+        Lado 2:
+      </label>
+      <input id="Inputlado2" type="number" min="0"/>
+      <label for="Inputbase">
+        Base:
+      </label>
+      <input id="Inputbase" type="number" min="0"/>
+      <label for="Inputaltura">
+        Altura:
+      </label>
+      <input id="Inputaltura" type="number" min="0"/>
+      <button type="button" onclick="calcularPerimetroCuadrado()">
+        Calcular el perímetro
+      </button>
+      <button type="button" onclick="calcularAreaCuadrado()">
+        Calcular el área
+      </button>
+    </form>
+  </section> -->
+  <footer>
+    <a class="platzi" href="https://platzi.com/p/ValentinaSarmiento32/curso/2327-course/diploma/detalle/">Curso práctico de Platzi</a>
+    <a class="ig" href="https://www.instagram.com/valentina.sarmiento.32/">@valentina.sarmiento.32</a>
+  </footer>
+  <script src="./figuras.js"></script>
+</body>
+</html>
